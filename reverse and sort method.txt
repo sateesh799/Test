@@ -1,0 +1,37 @@
+reverse()
+
+l=[10,20,30]
+l.reverse()
+print(l)
+output:
+[30, 20, 10]
+
+reversed()-function
+sort():
+
+sort is applicable all of same data type
+
+
+l=[40,35,10,20,60,30]
+l.sort()
+print(l)
+output:
+[10, 20, 30, 35, 40, 60]
+
+
+l=['sateesh', 'chitti', 'uday', 'sudheer', 'Raju', 'Mahboob', 'sasi', 'Bhavya', 'Vahini', 'Keethan']
+l.sort()
+print(l)
+output:
+['Bhavya', 'Keethan', 'Mahboob', 'Raju', 'Vahini', 'chitti', 'sasi', 'sateesh', 'sudheer', 'uday']
+
+
+reverse of sort:sort(reverse=True)
+--------------
+
+
+l=[40,35,10,20,60,30]
+l.sort(reverse=True)
+print(l)
+output:
+[60, 40, 35, 30, 20, 10]
